@@ -1,13 +1,16 @@
+
 <!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
 
+	{% load static%}
+
 	<!-- header section -->
 	<header class="header-section">
 		<div class="container">
 			<!-- logo -->
-			<a href="index.html" class="site-logo"><img src="img/logo.png" alt=""></a>
+			<a href="index.html" class="site-logo"><img src='{% static "/media/logo.png" %}' alt="SNSEBS"></a>
 			<div class="nav-switch">
 				<i class="fa fa-bars"></i>
 			</div>
